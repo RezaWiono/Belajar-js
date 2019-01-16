@@ -144,5 +144,71 @@
 
 
 // //#10. operators precedence
-let x = (2 + 3) * 4;
-console.log(x);
+// let x = (2 + 3) * 4;
+// console.log(x);
+
+
+//CONTROL FLOW
+// //#1. if & else
+// let jam = 16;
+
+// if (jam >= 3 && jam < 10) 
+//     console.log('good morning');
+
+// else if (jam >= 11 && jam < 15) 
+//     console.log('good afternoon');
+// else 
+// console.log('good evening')
+
+
+// //#2. switch case
+//  let role = 'moderator';
+
+//  switch (role) {
+//      case 'guest':
+//      console.log('guest user');
+//      break;
+
+//      case 'moderator':
+//      console.log('moderator user');
+//      break;
+
+//      default:
+//      console.log('unknown user');
+//  }
+
+
+// //#3. for
+// for (let i = 1; i <= 5; i++){
+//     console.log('hello wolrd', i);
+// }
+// for (let i = 5; i >= 1; i--){
+//     if (i % 2 !==0) console.log(i);
+// }
+
+
+// //#4. while
+// for (let i = 0; i >= 5; i++){
+//     if (i % 2 !==0) console.log(i);
+// }
+// let i = 0;
+// while (i <= 5) {
+//     if (i % 2 !== 0) console.log(i);
+//     i++;5
+// }
+
+
+// //#5. do while
+// for (let i = 0; i >= 5; i++){
+//     if (i % 2 !==0) console.log(i);
+// }
+// let i = 0;
+// while (i <= 5) {
+//     if (i % 2 !== 0) console.log(i);
+//     i++;
+// }
+ let i = 9;
+ do{
+    if (i % 2 !== 0) console.log(i);
+    i++;5
+} while (i <= 5);
