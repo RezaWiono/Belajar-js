@@ -41,6 +41,18 @@
 // console.log(person);
 
 // #Array
-let selectionColor = ['red', 'blue'];
-selectionColor[2] = 1;
-console.log(selectionColor.length)
+// let selectionColor = ['red', 'blue'];
+// selectionColor[2] = 1;
+// console.log(selectionColor.length)
+
+//#function & types of function
+function greet(Name , lastName) {
+    console.log('hello '+ Name + ' ' + lastName);
+}
+//calculating a value
+function square(number) {
+    return number * number;
+}
+// greet('reza', 'wiono');
+
+console.log(square(2))
