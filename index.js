@@ -27,9 +27,20 @@
 // const walk = person.walk.bind(person)
 // console.log(walk())
 
-const square = function(number){
-    return number * number;
-};
+// #objects
+// let person= {
+//     Name: 'reza',
+//     age: 18
+// };
+// person.Name = 'wiono',
 
-const square = number => number * number;
-console.log(square(5));
+
+// let selection = 'nsme'
+// person[selection] = 'toyib';
+
+// console.log(person);
+
+// #Array
+let selectionColor = ['red', 'blue'];
+selectionColor[2] = 1;
+console.log(selectionColor.length)
