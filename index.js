@@ -207,8 +207,67 @@
 //     if (i % 2 !== 0) console.log(i);
 //     i++;
 // }
- let i = 9;
- do{
-    if (i % 2 !== 0) console.log(i);
-    i++;5
-} while (i <= 5);
+//  let i = 9;
+//  do{
+//     if (i % 2 !== 0) console.log(i);
+//     i++;5
+// } while (i <= 5);
+
+
+// //#18. exercise 9- grade
+// const marks = [80, 80, 50];
+// //1-59: F
+// //60-69: D
+// //70-79: C
+// //80-89: B
+// //90-100: A
+
+// console.log(calculateGrade(marks));
+
+// function calculateGrade(marks) {
+//     const average = calculateGrade(marks);
+
+//     if (average < 60)  return 'F';
+//     if (average < 70)  return 'F';
+//     if (average < 80)  return 'F';
+//     if (average < 90)  return 'F';
+//     if return 'A';
+// }
+
+// function calculateGrade(array) {
+//      let sum = 0;
+//     for (let value of array);
+//         sum += value;
+//     return sum / array.length;
+// }
+
+
+// //#19. exercise 10-stars
+// showStars(10);
+
+// function showStars(rows) {
+//     for (let row = 1; row <= rows; row++) {
+//        let pattern = '';
+//     for ( let i= 0; i , row; i++);
+//         pattern += '*';
+//         console.log(pettern);
+//     }
+// }
+
+
+// //20. exercis-prime numbers
+showPrime(10);
+
+function showPrime(limit) {
+    for (let number = 2; number <= limit; number++)
+        if (isPrime(number)) console,log(number);
+            }    
+
+function isPrime(number){
+    for (let factor = 2; factor < number; factor++);
+    if (number % factor === 0)
+    return false;
+
+    return true;
+
+}
