@@ -271,3 +271,26 @@
 //     return true;
 
 // }
+
+    //#OBJECT
+
+// //1. basics
+//   let radius = 1;
+//   let x : 1;
+//   let y : 1;
+
+// const reza = {
+//     radius :1,
+//     location : {
+//         x :1,
+//         y :1
+//     },
+//     inVisible: true,
+//     draw: function() {
+//         console.log('draw');
+//     }
+// };
+// reza.draw();
+
+
+// //2. factory functions
