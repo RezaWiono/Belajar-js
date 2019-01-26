@@ -294,3 +294,17 @@
 
 
 // //2. factory functions
+function creatCircle(radius) {
+    return {
+        radius,
+        draw{} {
+            console.log('draw');
+        }
+    };
+}
+
+const circle1 =creatCircle(1);
+console.log(circle1);
+
+const circle2 = creatCircle(2);
+console.log(circle2);
